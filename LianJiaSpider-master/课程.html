@@ -1,0 +1,576 @@
+
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="referrer" content="origin" />
+<title>课表 - 武沛齐 - 博客园</title>
+<meta property="og:description" content="第一部分 python基础一、概述Python发展史关于python的常见误解简单性可移植性解释性动态性面向对象应用范围二、基础知识注释基本数据类型整数浮点数十进制小数（decimal）布尔类型字符串" />
+<link type="text/css" rel="stylesheet" href="/bundles/blog-common.css?v=giTNza-Of-PEt5UsELhFQAR7G6-bfaSa4oolcq7i9-o1"/>
+<link id="MainCss" type="text/css" rel="stylesheet" href="/skins/SimpleBlue/bundle-SimpleBlue.css?v=0qK9u742QhZ2ygXQ2XvDKUpwAJ6TPVAq3vGGNZD4Qx81"/>
+<link type="text/css" rel="stylesheet" href="/blog/customcss/133379.css?v=YSNZANkz7eBKoXq2iHYfghvodkY%3d"/>
+<link id="mobile-style" media="only screen and (max-width: 767px)" type="text/css" rel="stylesheet" href="/skins/SimpleBlue/bundle-SimpleBlue-mobile.css?v=NNDA5QyCVOryYTTnKs-Bji3iJtsOwZNbIf8Qs7hMnyE1"/>
+<link title="RSS" type="application/rss+xml" rel="alternate" href="http://www.cnblogs.com/wupeiqi/rss"/>
+<link title="RSD" type="application/rsd+xml" rel="EditURI" href="http://www.cnblogs.com/wupeiqi/rsd.xml"/>
+<link type="application/wlwmanifest+xml" rel="wlwmanifest" href="http://www.cnblogs.com/wupeiqi/wlwmanifest.xml"/>
+<script src="//common.cnblogs.com/scripts/jquery-2.2.0.min.js"></script>
+<script type="text/javascript">var currentBlogApp = 'wupeiqi', cb_enable_mathjax=false;var isLogined=false;</script>
+<script src="/bundles/blog-common.js?v=yRkjgN2sBQkB4hX-wirHxPomeBT9sB5dawr6ob7KIvg1" type="text/javascript"></script>
+</head>
+<body>
+<a name="top"></a>
+
+<div id="home">
+<div id="header">
+	<div id="blogTitle">
+		
+<!--done-->
+<div class="title"><a id="Header1_HeaderTitle" class="headermaintitle" href="https://www.cnblogs.com/wupeiqi/">Mr.Seven</a></div>
+<div class="subtitle"></div>
+
+
+
+		
+	</div><!--end: blogTitle 博客的标题和副标题 -->
+	<div id="navigator">
+		
+<ul id="navList">
+<li id="nav_sitehome"><a id="blog_nav_sitehome" class="menu" href="https://www.cnblogs.com/">博客园</a></li>
+<li id="nav_myhome"><a id="blog_nav_myhome" class="menu" href="https://www.cnblogs.com/wupeiqi/">首页</a></li>
+<li id="nav_newpost"><a id="blog_nav_newpost" class="menu" rel="nofollow" href="https://i.cnblogs.com/EditPosts.aspx?opt=1">新随笔</a></li>
+<li id="nav_contact"><a id="blog_nav_contact" class="menu" rel="nofollow" href="https://msg.cnblogs.com/send/%E6%AD%A6%E6%B2%9B%E9%BD%90">联系</a></li>
+<li id="nav_rss"><a id="blog_nav_rss" class="menu" href="https://www.cnblogs.com/wupeiqi/rss">订阅</a>
+<!--<a id="blog_nav_rss_image" class="aHeaderXML" href="https://www.cnblogs.com/wupeiqi/rss"><img src="//www.cnblogs.com/images/xml.gif" alt="订阅" /></a>--></li>
+<li id="nav_admin"><a id="blog_nav_admin" class="menu" rel="nofollow" href="https://i.cnblogs.com/">管理</a></li>
+</ul>
+
+		<div class="blogStats">
+			
+			<div id="blog_stats">
+<!--done-->
+随笔-133&nbsp;
+文章-157&nbsp;
+评论-588&nbsp;
+</div>
+			
+		</div><!--end: blogStats -->
+	</div><!--end: navigator 博客导航栏 -->
+</div><!--end: header 头部 -->
+<div id="main">
+	<div id="mainContent">
+	<div class="forFlow">
+		
+<div id="post_detail">
+<!--done-->
+<div id="topics">
+	<div class = "post">
+		<h1 class = "postTitle">
+			<a id="cb_post_title_url" class="postTitle2" href="https://www.cnblogs.com/wupeiqi/articles/4731930.html">课表</a>
+		</h1>
+		<div class="clear"></div>
+		<div class="postBody">
+			<div id="cnblogs_post_body" class="blogpost-body"><p><span style="font-size: 18pt;"><strong>第一部分 &nbsp;python基础</strong></span></p>
+<p><strong>一、概述</strong></p>
+<ul>
+<li>Python发展史</li>
+<li>关于python的常见误解</li>
+<li>简单性</li>
+<li>可移植性</li>
+<li>解释性</li>
+<li>动态性</li>
+<li>面向对象</li>
+<li>应用范围</li>
+</ul>
+<p>二、基础知识</p>
+<ul>
+<li>注释</li>
+<li>基本数据类型
+<ul>
+<li>整数</li>
+<li>浮点数</li>
+<li>十进制小数（decimal）</li>
+<li>布尔类型</li>
+<li>字符串</li>
+<li>列表</li>
+<li>元祖</li>
+<li>字典</li>
+</ul>
+</li>
+<li>运算符
+<ul>
+<li>关系运算符</li>
+<li>位运算符</li>
+<li>自增和自减运算</li>
+<li>三元运算</li>
+</ul>
+</li>
+<li>流程控制
+<ul>
+<li>缩进</li>
+<li>块和作用域</li>
+<li>条件语句</li>
+<li>循环</li>
+<li>中断控制流程</li>
+</ul>
+</li>
+<li>字符串
+<ul>
+<li>字符编码</li>
+<li>切片</li>
+<li>格式化</li>
+<li>类型转换</li>
+<li>字符串API</li>
+</ul>
+</li>
+<li>列表
+<ul>
+<li>For循环</li>
+<li>循环中断</li>
+<li>切片</li>
+<li>类型转换</li>
+<li>列表API</li>
+</ul>
+</li>
+<li>元祖
+<ul>
+<li>For循环</li>
+<li>循环中断</li>
+<li>类型转换</li>
+<li>元祖API</li>
+<li>元祖和列表的差异</li>
+</ul>
+</li>
+<li>哈希表
+<ul>
+<li>For循环</li>
+<li>循环中断</li>
+<li>哈希表API</li>
+<li>哈西、元祖以及列表的对比</li>
+</ul>
+</li>
+<li>字典&nbsp;
+<ul>
+<li>For循环</li>
+<li>循环中断</li>
+<li>类型转换</li>
+<li>字典API</li>
+</ul>
+</li>
+<li>collections系列
+<ul>
+<li>可命名元祖（namedtuple）</li>
+<li>计数器（counter）</li>
+<li>双向队列（deque）</li>
+<li>有序字典（orderedDict）</li>
+<li>默认字典（defaultdict）</li>
+</ul>
+</li>
+</ul>
+<p>二、函数和内置函数</p>
+<ul>
+<li>局部变量和全局变量</li>
+<li>函数</li>
+<ul>
+<li>定义函数</li>
+<li>函数的返回值</li>
+<li>形式参数和实际参数</li>
+<li>默认参数</li>
+<li>动态参数</li>
+<li>函数式编程和面向过程编程</li>
+</ul>
+<li>lambda表达式</li>
+<li>装饰器函数</li>
+<ul>
+<li>基本装饰器</li>
+<li>多参数装饰器</li>
+</ul>
+<li>内置函数<br /><img src="https://images0.cnblogs.com/blog2015/425762/201508/151312177398864.png" alt="" width="645" height="308" /></li>
+
+
+
+
+
+
+
+
+</ul>
+<p>三、面向对象</p>
+<ul>
+<li>类和对象</li>
+<li>创建类</li>
+<li>创建对象</li>
+<li>self</li>
+<li>类的普通成员
+<ul>
+<li>字段</li>
+<li>方法（普通方法、构造方法、析构方法）</li>
+<li>属性</li>
+
+
+
+
+
+
+
+</ul>
+
+
+
+
+
+
+
+</li>
+<li>类成员修饰符</li>
+<li>类的高级成员
+<ul>
+<li>静态字段</li>
+<li>静态方法</li>
+<li>类方法</li>
+<li>__call__方法</li>
+<li>__new__方法　</li>
+
+
+
+
+
+
+
+</ul>
+
+
+
+
+
+
+
+</li>
+<li>三大特性
+<ul>
+<li>封装</li>
+<li>继承</li>
+<li>多态</li>
+
+
+
+
+
+
+
+</ul>
+
+
+
+
+
+
+
+</li>
+<li>函数式编程和面向对象编程对比</li>
+<li>扩展：python面向对象黑魔法</li>
+
+
+
+
+
+
+
+</ul>
+<p>四、异常和断言</p>
+<ul>
+<li>处理异常
+<ul>
+<li>异常分类</li>
+<li>声明已检查异常</li>
+<li>如何抛出异常</li>
+<li>创建异常类</li>
+
+
+
+
+
+
+</ul>
+
+
+
+
+
+
+</li>
+<li>捕获异常
+<ul>
+<li>捕获多个异常</li>
+<li>再次跑出异常与异常链</li>
+<li>Finally子句</li>
+<li>分析堆栈跟踪元素</li>
+
+
+
+
+
+
+</ul>
+
+
+
+
+
+
+</li>
+<li>使用异常机制的建议</li>
+<li>断言</li>
+
+
+
+
+
+
+</ul>
+<p>四、模块</p>
+<ul>
+<li>导入模块</li>
+<li>安装和使用模块</li>
+<li>开源模块</li>
+<li>创建模块</li>
+<li>重要模块</li>
+<ul>
+<li>os</li>
+<li>sys</li>
+<li>commands</li>
+<li>subprocess</li>
+<li>re</li>
+<li>shutil</li>
+<li>itertools</li>
+<li>hashlib</li>
+<li>json</li>
+<li>pickle</li>
+<li>logging</li>
+<li>ConfigParser</li>
+<li>time</li>
+<li>...</li>
+
+
+
+
+
+
+</ul>
+
+
+
+
+
+
+</ul>
+<p>五、文件操作</p>
+<p>　　实例：修改haproxy配置文件&nbsp;</p>
+<p>五、数据库操作</p>
+<p>&nbsp;　　实例：三层架构执行数据库增删改查</p>
+<p>六、并发</p>
+<ul>
+<li>线程</li>
+<li>进程</li>
+<li>协程</li>
+<li>twisted</li>
+
+
+</ul>
+<p>七、Socket操作</p>
+<p>&nbsp;　　实例：聊天室、FTP服务器</p>
+<p>八、网络操作（爬虫）</p>
+<p>&nbsp;　　urllib</p>
+<p>　　scrapy框架爬虫</p>
+<p>九、远程控制</p>
+<p>&nbsp;　　paramiko远程操作</p>
+<p>　　实例：堡垒机</p>
+<p>十、其他</p>
+<p>　　...　　</p>
+<p><span style="font-size: 18pt;"><strong>第二部分 &nbsp;前端</strong></span></p>
+<p>一、HTML</p>
+<p>二、CSS</p>
+<p>三、JavaScript</p>
+<p>四、jQuery</p>
+<p>五、前端框架 BootStrap</p>
+<p>六、前端框架 AngularJs</p>
+<p>七、前端框架 ReactJs</p>
+<p><span style="font-size: 18pt;"><strong>第三部分 &nbsp;WEB框架</strong></span></p>
+<p>一、 Web框架揭秘</p>
+<ul>
+<li>WSGI</li>
+<li>路由系统</li>
+<li>模板引擎</li>
+<li>模型绑定</li>
+<li>ORM</li>
+
+
+
+
+
+
+</ul>
+<p>二、自定义WEB框架</p>
+<p>三、flask框架</p>
+<p>四、bottle框架</p>
+<p>五、web.py框架</p>
+<p>六、Tornado框架以及源码剖析</p>
+<p>七、Django框架已经源码剖析</p>
+<p><strong><span style="font-size: 18pt;">第四部分 &nbsp;python设计模式</span></strong></p>
+<ol>
+<li>单例模式</li>
+<li>简单工厂模式</li>
+<li>工厂方法模式</li>
+<li>抽象工厂模式</li>
+<li>策略模式</li>
+<li>装饰模式</li>
+<li>代理模式</li>
+<li>原型模式</li>
+<li>模板方法模式</li>
+<li>外观模式</li>
+<li>建造者模式</li>
+<li>观察者模式</li>
+<li>状态模式</li>
+<li>适配器模式</li>
+<li>备忘录模式</li>
+<li>组合模式</li>
+<li>迭代器模式</li>
+<li>桥接模式</li>
+<li>命令模式</li>
+<li>职责链模式</li>
+<li>中介者模式</li>
+<li>享元模式</li>
+<li>解释器模式</li>
+<li>访问者模式</li>
+
+
+
+
+
+
+</ol>
+<p><span style="font-size: 18pt;"><strong>第五部分 &nbsp;算法</strong></span></p>
+<p>算法基础：</p>
+<p>　　一、七大经典排序</p>
+<p>　　二、五大经典查找</p>
+<p>　　三、线性表</p>
+<p>　　四、栈</p>
+<p>　　五、队列</p>
+<p>　　六、树</p>
+<p>　　七、图</p>
+<p>算法演练:</p>
+<ul>
+<li>百钱买百鸡</li>
+<li>五家共井</li>
+<li>猴子吃桃</li>
+<li>最长公共子序列</li>
+<li>字符串相似度</li>
+<li>协同推荐SlopeOne 算法</li>
+<li>KMP算法</li>
+<li>AC自动机</li>
+<li>优先队列</li>
+<li>树状数组</li>
+<li>Bitmap算法</li>
+<li>线段树</li>
+<li>赫夫曼树</li>
+<li>Prim算法</li>
+<li>并查集</li>
+<li>Kruskal算法</li>
+<li>Dijkstra算法</li>
+<li>外排序</li>
+<li>双端队列</li>
+<li>三元组</li>
+<li>十字链表</li>
+<li>奇偶排序</li>
+<li>鸡尾酒排序</li>
+<li>梳排序</li>
+<li>块状链表</li>
+
+
+
+
+
+</ul>
+<p><strong><span style="font-size: 18pt;">第六部分 &nbsp;项目实战</span></strong></p>
+<p>一、BBS</p>
+<p>二、主机管理系统</p>
+<p>三、购物商城</p>
+<p>四、CMDB</p></div><div id="MySignature"></div>
+<div class="clear"></div>
+<div id="blog_post_info_block">
+<div id="BlogPostCategory"></div>
+<div id="EntryTag"></div>
+<div id="blog_post_info">
+</div>
+<div class="clear"></div>
+<div id="post_next_prev"></div>
+</div>
+
+
+		</div>
+		<div class = "postDesc">posted @ <span id="post-date">2015-08-15 10:30</span> <a href='https://www.cnblogs.com/wupeiqi/'>武沛齐</a> 阅读(<span id="post_view_count">...</span>) 评论(<span id="post_comment_count">...</span>) &nbsp;<a href="https://i.cnblogs.com/EditArticles.aspx?postid=4731930" rel="nofollow">编辑</a> <a href="#" onclick="AddToWz(4731930);return false;">收藏</a></div>
+	</div>
+	<script type="text/javascript">var allowComments=true,cb_blogId=133379,cb_entryId=4731930,cb_blogApp=currentBlogApp,cb_blogUserGuid='7208b24d-95c9-e111-aa3f-842b2b196315',cb_entryCreatedDate='2015/8/15 10:30:00';loadViewCount(cb_entryId);var cb_postType=2;</script>
+	
+</div><!--end: topics 文章、评论容器-->
+</div><a name="!comments"></a><div id="blog-comments-placeholder"></div><script type="text/javascript">var commentManager = new blogCommentManager();commentManager.renderComments(0);</script>
+<div id='comment_form' class='commentform'>
+<a name='commentform'></a>
+<div id='divCommentShow'></div>
+<div id='comment_nav'><span id='span_refresh_tips'></span><a href='javascript:void(0);' onclick='return RefreshCommentList();' id='lnk_RefreshComments' runat='server' clientidmode='Static'>刷新评论</a><a href='#' onclick='return RefreshPage();'>刷新页面</a><a href='#top'>返回顶部</a></div>
+<div id='comment_form_container'></div>
+<div class='ad_text_commentbox' id='ad_text_under_commentbox'></div>
+<div id='ad_t2'></div>
+<div id='opt_under_post'></div>
+<div id='cnblogs_c1' class='c_ad_block'></div>
+<div id='under_post_news'></div>
+<div id='cnblogs_c2' class='c_ad_block'></div>
+<div id='under_post_kb'></div>
+<div id='HistoryToday' class='c_ad_block'></div>
+<script type='text/javascript'>
+    fixPostBody();
+    setTimeout(function () { incrementViewCount(cb_entryId); }, 50);
+    deliverAdT2();
+    deliverAdC1();
+    deliverAdC2();    
+    loadNewsAndKb();
+    loadBlogSignature();
+    LoadPostInfoBlock(cb_blogId, cb_entryId, cb_blogApp, cb_blogUserGuid);
+    GetPrevNextPost(cb_entryId, cb_blogId, cb_entryCreatedDate, cb_postType);
+    loadOptUnderPost();
+    GetHistoryToday(cb_blogId, cb_blogApp, cb_entryCreatedDate);   
+</script>
+</div>
+
+
+	</div><!--end: forFlow -->
+	</div><!--end: mainContent 主体内容容器-->
+
+	<div id="sideBar">
+		<div id="sideBarMain">
+			
+<!--done-->
+<div class="newsItem">
+<h3 class="catListTitle">公告</h3>
+	<div id="blog-news"></div><script type="text/javascript">loadBlogNews();</script>
+</div>
+
+			<div id="calendar"><div id="blog-calendar" style="display:none"></div><script type="text/javascript">loadBlogDefaultCalendar();</script></div>
+			
+			<div id="leftcontentcontainer">
+				<div id="blog-sidecolumn"></div><script type="text/javascript">loadBlogSideColumn();</script>
+			</div>
+			
+		</div><!--end: sideBarMain -->
+	</div><!--end: sideBar 侧边栏容器 -->
+	<div class="clear"></div>
+	</div><!--end: main -->
+	<div class="clear"></div>
+	<div id="footer">
+		
+<!--done-->
+Copyright &copy;2018 武沛齐
+	</div><!--end: footer -->
+</div><!--end: home 自定义的最大容器 -->
+</body>
+</html>
